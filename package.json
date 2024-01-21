@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "Backend server for user registration/authentication utilising Node.js, Express, and MongoDB",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/alaslong/html.git"
+    "url": "git+ssh://git@github.com/alaslong/auth.git"
   },
   "keywords": [
     "Node",
@@ -20,9 +17,9 @@
   "author": "Alastair Longmuir",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alaslong/html/issues"
+    "url": "https://github.com/alaslong/auth/issues"
   },
-  "homepage": "https://github.com/alaslong/html#readme",
+  "homepage": "https://github.com/alaslong/auth#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "dotenv": "^16.3.2",
