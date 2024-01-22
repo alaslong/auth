@@ -4,8 +4,17 @@ const router = express.Router();
 // MongoDB user model
 const User = require(`./../models/User`);
 
-//Password handler
+// MongoDB Verification model
+const Verification = require(`./../models/Verification`);
+
+// Password handler
 const bcrypt = require(`bcrypt`);
+
+// User ID handler
+const {v4: uuidv4} = require('uuid');
+
+// env variables
+require(`dotenv`).config();
 
 // Register
 
